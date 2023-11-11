@@ -1,0 +1,128 @@
+
+/*====================================================== Universal Reset ======================================================*/
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*====================================================== Body ======================================================*/
+
+body {
+    background-color: rgba(0, 0, 0, 0.885);
+}
+
+/*====================================================== Header ======================================================*/
+
+#header {
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:antiquewhite;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*====================================================== Title ======================================================*/
+
+#title {
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color:black;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+/*====================================================== H1 ======================================================*/
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/*====================================================== Product Image ======================================================*/
+
+.img-first {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+/*====================================================== Header for Product ======================================================*/
+
+#product-header {
+    position: sticky;
+    padding: 5px 100px;
+    color:black;
+    background-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+/*====================================================== Division for Products ======================================================*/
+
+.img-photo {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/*====================================================== Title for Products ======================================================*/
+
+.product-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 100px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: maroon;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*====================================================== Product Description ======================================================*/
+
+.product-info {
+    position: absolute;
+    margin-left: 570px;
+    margin-right: 30px;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: large;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    hyphens: auto;
+    line-break: normal;
+    color: white;
+}
+
+/*====================================================== Footer ======================================================*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
